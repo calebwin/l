@@ -1,5 +1,3 @@
-; DEPRECATED
-
 #lang rosette/safe
 
 (require rosette/lib/angelic)
