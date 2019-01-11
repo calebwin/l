@@ -1,6 +1,6 @@
 # l
 
-l is a simple [Rosette](http://emina.github.io/rosette/index.html)-based solver for L-system grammars. Given a specification of consecutive states, the production rule set for a valid L-system will be generated.
+l is a simple [Rosette](http://emina.github.io/rosette/index.html)-based synthesizer for L-system grammars. Given a specification of states, the production rule set for a valid L-system will be generated.
 
 ```racket
 (define state-1 (list "a" "b" "c"))
