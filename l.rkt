@@ -45,10 +45,9 @@
 
 ; test
 (define state-1 (list "a" "b"))
-;;(define state-2 (list "a" "b" "a"))
-(define state-3 (list "a" "b" "a" "a" "b"))
-;;(define state-4 (list "a" "b" "a" "a" "b" "a" "b" "a"))
+(define state-2 (list "a" "b" "b" "a"))
+(define state-3 (list "a" "b" "b" "a" "b" "a" "a" "b"))
 
-(define production-rule-set (find-production-rule-set (list (cons state-1 0) (cons state-3 2))))
+(define production-rule-set (find-production-rule-set (list (cons state-1 0) (cons state-2 1))))
 
 (print-production-rule-set production-rule-set)
