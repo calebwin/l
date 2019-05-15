@@ -13,4 +13,4 @@ l is a simple [Rosette](http://emina.github.io/rosette/index.html)-based synthes
 ; print production rule-set
 (print-production-rule-set production-rule-set)
 ```
-The source code is in `main.rkt`.
+The source code is in [`main.rkt`](https://github.com/calebwin/l/blob/master/main.rkt).
